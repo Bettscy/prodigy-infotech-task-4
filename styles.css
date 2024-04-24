@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Gradient from top to bottom */
+    background-image: url('/Users/bettscy/Downloads/prodigy task4/bg7.jpg'); /* Pattern overlay */
+    background-size: cover; /* Ensure pattern covers the entire background */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(233, 230, 65); /* Set heading text color to white */
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    color: #fff; /* Set text color of list items to white */
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    color: #ffc0cb; /* Set color of project names to light pink */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add this CSS to set text color of paragraph elements to white */
+section p {
+    color: #fff;
+}
